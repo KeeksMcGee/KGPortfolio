@@ -1,0 +1,51 @@
+/* Body is the for the whole document*/
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(1, 158, 158);
+  background-color: yellow;
+  text-align: justify center;
+  margin: 50px;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+/* Center the image */
+
+img {
+  text-align: center;
+  padding-left: 25%;
+}
+
+/*Get the titles to be in the middle */
+header h1 {
+  text-align: center;
+  font-size: 48px;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  font-size: 24px;
+}
+
+/* link colors */
+a:link {
+  color: seagreen(1, 158, 158);
+}
+a:visited {
+  color: blueviolet;
+}
+a:hover {
+  color: orange;
+}
+a:active {
+  color: black;
+}
+
+footer {
+  text-align: center;
+}
