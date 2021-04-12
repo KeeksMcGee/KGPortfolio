@@ -36,10 +36,10 @@ h3 {
 
 /* link colors */
 a:link {
-  color: seagreen(1, 158, 158);
+  color: lightskyblue;
 }
 a:visited {
-  color: blueviolet;
+  color: lightcyan;
 }
 a:hover {
   color: orange;
