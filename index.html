@@ -5,54 +5,87 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css"/>
-    <title>Kiarra Gibbs' Portfolio
-    </title>
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Libre+Franklin:700|Alegreya+SC" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <title>Kiarra Gibbs' Portfolio</title>
 </head>
 <body>
- <!-- Header with my name and what I am-->
-    <header>
+    <nav role="navigation">
         <h1>Kiarra Gibbs</h1>
-        <h2>Software Developer</h2>
+        <ul class="nav-buttons">
+            <li>
+                <a href="#" id="nav-about-me">About Me</a>
+            </li>
+            <li>
+                <a href="#" id="nav-skills">Skills</a>
+            </li>
+            <li>
+                <a href="#" id="nav-projects">Projects</a>
+            </li>
+            <li>
+                <a href="#" id="nav-contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+ <!-- Header with my name and what I am-->
+    <header role="banner">
+        <h1>Let's explore code together</h1>
     </header>
     <!-- Intro section with my picture-->
-    <div>
-        <img src="images/ProProf.jpg" alt="picture of Kiarra smiling"/>
-    </div>
-        <main>
+    <section class="about-me" role="region">
+        <div class="section-container">
+            <h3 class="section-title">
+                About Me
+                <img src="images/ProProf.jpg" alt="picture of Kiarra smiling" class="col-4">
+            </h3>
+            <p>Hi, I'm Kiarra, a full stack web developer and graduate of the Fullstack Web Development Program at Thinkful. 
+                I've always been interested in how things work - building websites from the ground up is just a natural extension of that.
+            </p>
+                <p>I love hiking and finding new cuisines to recreate at home - why? Because I love exploring and learning new things.
+                    With coding, there's always something new to learn. As I build websites, I get excited to figure out the best way to do something new!
+                </p>
+        </div>
+    </section>
+    <section class="skills" role="region">
+        <div class="section-container">
+            <h3 class="section-title">Skills</h3>
+            <div class="skills-container">
+                <img src="images/html5Logo.png" alt="html logo">
+                <img src="images/css3Logo.png" alt="css logo">
+                <img src="images/jsLogo.png" alt="javascript logo">
+                <img src="images/jqueryLogo.png" alt="jquery logo">
+                <img src="images/reactLogo.png" alt="react logo">
+                <img src="images/nodejsLogo.png" alt="node js logo">
+                <img src="images/herokuLogo.png" alt="heroku logo">
+                <img src="images/mocha2Logo.png" alt="mocha logo">
+                <img src="images/chaiLogo.png" alt="chai logo">
+                <img src="images/GitHub-logo.png" alt="Github logo">
+            </div>
+        </div>
+    </section>
+        <section class="projects" role="region">
+            <div class="section-container">
+                <h3 class="section-title">Projects</h3>
+            </div>
+        </section>
+        <section class="contact" role="region">
+            <h3 class="section-title">Connect</h3>
+            <ul>
+                <li class="contact-info">
+                    <a href="mailto:kiarra.gibbs@gmail.com?subject=Hello" target="_blank" aria-label="Email Kiarra"/>
+                </li>
+                <li class="contact-info">
+                    <a href="https://github.com/KeeksMcGee" target="_blank" aria-label="View GitHub Profile"/>
+                </li>
+                <li class="contact-info">
+                    <a href="https://www.linkedin.com/in/kiarra-gibbs" target="_blank" aria-label="View LinkedIn Profile"/>
+                </li>
+            </ul>
+        </section>
+
         
-        <h3> Hi! I'm Kiarra</h3>
-        <p>I am a software developer living in Atlanta, Georgia.  </p>
-        <p>My passions are:</p>
-        <ul>
-            <li>Fictional crime shows (think Law & Order: SVU or The Closer)</li>
-            <li>Web sites that pop</li>
-            <li>Books, books and more books</li>
-        </ul>
-
-        <p>Please take a look at my website and feel free to contact me!</p>
-
-</main>
-
-        <hr>
-        <!-- About me section that contains a desc of my passion for web dev as well as other interests outside of web dev  -->
-    
-        <h3>About Kiarra</h3>
-        <article>
-        <p>I've always been interested in how things work - building websites from the ground up is just a natural extension of that. When I'm not working 
-            with web development, I am hiking, reading or finding new cuisines to recreate at home.
-        </p>
-
-            <p>If you're looking for a new developer please reach out! I am so excited to work with other developers to build great software.</p>
-    </article>
-        <hr>
         <!-- Contact section with LinkedIn and GitHub profiles-->
 
-        <h3 id="contact">Contact Kiarra</h3>
-        <p>I'd love to hear from you! Please feel free to contact or follow me:</p>
-        <ol>
-            <li><a target ="_blank" href="https://www.linkedin.com/in/kiarra-gibbs-68628673/">LinkedIn</a></li>
-            <li><a target = "_blank" href="https://github.com/KeeksMcGee">GitHub</a></li>
-        </ol>
     
         <footer>
             @Kiarra Gibbs

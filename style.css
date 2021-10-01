@@ -1,39 +1,138 @@
 /* Body is the for the whole document*/
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
-  background-color: teal;
-  text-align: justify center;
-  margin: 50px;
-  padding-left: 25%;
-  padding-right: 25%;
+* {
+ box-sizing: border-box;
 }
 
+body {
+  background-color: #ebfffe ;
+  font-size: 16px;
+  font-family: 'Libra Baskerville', serif;
+}
 /* Center the image */
 
 img {
-  text-align: center;
-  padding-left: 30%;
   height: 400;
   width: 400;
 }
 
-/*Get the titles to be in the middle */
-header h1 {
-  text-align: center;
-  font-size: 48px;
+nav {
+  position: fixed;
+  width: 100%;
+  background-color: #ebfffe  ;
+  top: 0;
+  z-index: 1000;
 }
 
-h2 {
-  text-align: center;
+nav h1 {
+  display: inline-block;
+  font-size: 28px;
 }
 
-h3 {
-  text-align: center;
+nav ul {
+  list-style: none;
+  float: right;
+}
+
+nav li {
+  display: inline-block;
+  padding-right: 15px;
+  padding-top: 10px;
   font-size: 24px;
 }
 
+nav li a {
+  text-decoration: none;
+  color: black;
+}
+
+/*Get the titles to be in the middle */
+header  {
+  background:url(images/drew-dau-hTcIbJCGCT8-unsplash.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  margin-top: 110px;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+header h1 {
+  text-align: right;
+  color: white;
+  font-size: 2rem;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+section {
+  display: block;
+  clear:both;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  width: 100%;
+  font-size: .85rem;
+}
+
+section h3 {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 1.4rem;
+  margin-bottom: 30px;
+}
+
+section p {
+  padding-top: 10px;
+  font-size: 1rem;
+  padding-bottom: 20px;
+}
+
+.section-container {
+  background-color: white;
+  width:90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  clear: both;
+  display: block;
+  height: auto;
+}
+
+section.skills 
+.skills-container {
+  width: 100%;
+  background-color: #FFFFFF;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+section.skills 
+.skills-container img {
+  width: 140px;
+  height: 116px;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  padding-bottom: 1rem;
+}
+
+section.about-me img {
+  float: right;
+  padding-bottom: 30px;
+}
+
+.col-4 {
+  float: left;
+  padding-left: 2%;
+  padding-right: 2%;
+  width: 100%;
+}
 /* link colors */
 a {
   color: white;
