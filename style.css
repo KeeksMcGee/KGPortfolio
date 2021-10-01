@@ -2,13 +2,18 @@
 
 * {
  box-sizing: border-box;
+ font-family: 'Raleway', sans-serif;
 }
 
 body {
   background-color: #ebfffe ;
-  font-size: 16px;
-  font-family: 'Libra Baskerville', serif;
+  font-size: 18px;
 }
+
+div {
+  display: block;
+}
+
 /* Center the image */
 
 img {
@@ -61,57 +66,21 @@ header  {
   box-sizing: border-box;
 }
 
-header h1 {
-  text-align: right;
-  color: white;
-  font-size: 2rem;
-  position: absolute;
-  bottom: 1rem;
-  right: 1rem;
-}
-
 section {
   display: block;
-  clear:both;
+  clear: both;
+  background-color: white;
   padding-top: 6rem;
   padding-bottom: 6rem;
   width: 100%;
-  font-size: .85rem;
 }
 
-section h3 {
-  font-family: 'Libre Franklin', sans-serif;
-  font-size: 1.4rem;
-  margin-bottom: 30px;
+section.about-me img {
+  float: right;
+  padding-bottom: 30px;
+  padding-left: 20px;
 }
 
-section p {
-  padding-top: 10px;
-  font-size: 1rem;
-  padding-bottom: 20px;
-}
-
-.section-container {
-  background-color: white;
-  width:90%;
-  max-width: 1000px;
-  margin: 0 auto;
-  clear: both;
-  display: block;
-  height: auto;
-}
-
-section.skills 
-.skills-container {
-  width: 100%;
-  background-color: #FFFFFF;
-  margin-bottom: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  text-align: center;
-}
 
 section.skills 
 .skills-container img {
@@ -122,25 +91,5 @@ section.skills
   padding-bottom: 1rem;
 }
 
-section.about-me img {
-  float: right;
-  padding-bottom: 30px;
-}
 
-.col-4 {
-  float: left;
-  padding-left: 2%;
-  padding-right: 2%;
-  width: 100%;
-}
-/* link colors */
-a {
-  color: white;
-}
-a:hover {
-  color: orange;
-}
 
-footer {
-  text-align: center;
-}
