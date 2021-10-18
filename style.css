@@ -62,18 +62,21 @@ img {
 }
 
 /*Get the titles to be in the middle */
-header {
-	background: url(images/drew-dau-hTcIbJCGCT8-unsplash.jpg);
-	background-size: cover;
-	width: 100%;
-	height: 800px;
-	margin-top: 150px;
-	position: relative;
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	box-sizing: border-box;
+header  {
+  background:url(images/drew-dau-hTcIbJCGCT8-unsplash.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  margin-top: 115px;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  box-sizing: border-box;
+  padding-top: 100px;
+  color: white;
+  font-weight: 300;
 }
 
 section {
